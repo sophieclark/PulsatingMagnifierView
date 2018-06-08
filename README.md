@@ -1,6 +1,8 @@
 # PulsatingingMagnifierView
 A view which magnifies the view behind and pulsates.
 
+![](appgif.gif)
+
 ## Installation
 To install via CocoaPods create podfile with the following lines:
 
