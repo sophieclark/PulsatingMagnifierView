@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PulsatingMagnifierView'
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = 'A view which magnifies the view behind and pulsates for a given number of times'
 
   s.description      = <<-DESC
@@ -26,6 +26,6 @@ A view which displays part of the view behind it and magnifies it to a set amoun
   s.source           = { :git => 'https://github.com/sophieclark/PulsatingMagnifierView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'PulsatingMagnifierView/PulsatingMagnifierView/PulsatingMagnifierView.swift'
+  s.source_files = 'PulsatingMagnifierView/PulsatingMagnifierView.swift'
 
 end
