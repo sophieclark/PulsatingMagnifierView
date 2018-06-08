@@ -18,7 +18,15 @@ To use the view in your view or view controller instantiate a PulsatingMagnifier
 ```swift
 var pulsatingMagnifierView: PulsatingMagnifierView!
 
-pulsatingMagnifierView = PulsatingMagnifierView(frame: CGRect(x: view.frame.size.width / 2 - 50, y: view.frame.size.height / 2 - 100, width: 100, height: 100), viewToMagnify: view, repeatCount: .infinity, startValue: 1, endValue: 2, duration: 2, scale: 1.5)
+pulsatingMagnifierView = PulsatingMagnifierView(frame: CGRect(x: view.frame.size.width / 2 - 50, 
+                                                              y: view.frame.size.height / 2 - 100,
+                                                              width: 100, height: 100), 
+                                                              viewToMagnify: view, 
+                                                              repeatCount: .infinity, 
+                                                              startValue: 1, 
+                                                              endValue: 2, 
+                                                              duration: 2, 
+                                                              scale: 1.5)
 
 ```
 
