@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PulsatingMagnifierView'
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = 'A view which magnifies the view behind and pulsates for a given number of times'
 
   s.description      = <<-DESC
